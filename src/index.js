@@ -3,9 +3,9 @@
  * @type {exports}
  */
 
-var isArray = require('lodash.isArray');
-var isEmpty = require('lodash.isEmpty');
-var isString = require('lodash.isString');
+var isArray = require('lodash.isarray');
+var isEmpty = require('lodash.isempty');
+var isString = require('lodash.isstring');
 
 
 var makeNestedDescribe = function(pathBits, describeFn) {
